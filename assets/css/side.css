@@ -1,0 +1,75 @@
+.sidebar-wrapper{
+    position: relative;
+    min-height: 100%;
+    width: 260px;
+       padding-bottom: 100px ;
+background-color: rgb(37, 36, 36);
+}
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: auto;
+        left: 0;
+        width: 260px;
+        display: block;
+        z-index: 1;
+       
+        font-weight: 200;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .sidebar-background {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        display: block;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    a{text-decoration: none;
+  
+
+}
+
+li.active > a {
+   
+    opacity:1;
+    background:rgba(255, 255, 255, 0.23);
+}
+
+.img{
+    background-image: url(../img/back_Polio.jpg);
+   color:rgb(85, 81, 81);
+    opacity: 0.7;
+    position:absolute;
+    z-index:1;
+    height:100%;
+    width:30%;
+    display:block;
+    top: 0;
+    left: 0;
+    background-size:cover;
+    background-position:center;
+}
+.sidebar .logo{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+ul li{
+padding: 1px 1px;
+
+}
+img{
+float: left;
+}
+
+p{
+    color:#337ab7;
+}

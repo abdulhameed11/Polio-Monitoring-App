@@ -1,0 +1,13 @@
+
+.Panel{
+    background: rgba(203, 203, 210, 0.15);
+    position: relative;
+    z-index:2;
+    float: right;
+    width:calc(100% - 260px);
+    
+   }
+
+
+
+    
